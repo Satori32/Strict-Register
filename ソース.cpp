@@ -27,6 +27,7 @@ namespace Register {
 				std::uint8_t Int2C : 2;
 				std::uint8_t Int2D : 2;
 			};
+
 			struct
 			{
 				std::uint8_t Int4A : 4;
@@ -48,7 +49,7 @@ namespace Register {
 				BYTE BYTE01;
 				BYTE BYTE02;
 			};
-			std::int16_t UInt16 = 0;
+			std::int16_t Int16 = 0;
 			std::uint16_t UInt16;
 		};
 	};
